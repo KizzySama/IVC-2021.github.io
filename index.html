@@ -1,8 +1,18 @@
 <!doctype html>
 <html>
 　　<head>
-	Nothing!!
+	<h1>CS585-Assignment 1 Report</h1>
 　　</head>
 　　<body>
-　　</body>
+	<h3>Here is the origin image of my face.</h3>
+	<img height='400px' src='face.png'/>
+	<h3>In first question, I tried to tint the image by different color. The method I used is to change the value of three channels to 255 respectively.</h3>
+　　	<h4>Here are results:</h4>
+	<img height='400px' src='tint_blue.jpg'/><img height='400px' src='tint_red.jpg'/><img height='400px' src='tint_green.jpg'/>
+	
+	<h3>In second question, I blurred the image. The method I used is assigning to each pixel the average grayscale pixel value of itself and its neighbors.</h3>
+	<h3>The radius of this function refers to the range of selected neighbors.</h3>　　	
+	<h4>Following are results when radius = 1, 5, 10:</h4>
+	<img height='400px' src='blur_1.jpg'/><img height='400px' src='blur_5.jpg'/><img height='400px' src='blur_10.jpg'/>
+</body>
 </html>
